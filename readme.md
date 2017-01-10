@@ -1,7 +1,7 @@
 <h1>Bakery</h1>
 
 <p>
-PSD is taken from the free distributionю	
+PSD is taken from the free distribution.
 </p>
 
 <p>In the layout of the template used the template referred to as the starting OptimizedHTML.

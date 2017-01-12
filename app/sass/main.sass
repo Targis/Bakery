@@ -37,6 +37,7 @@ body
 	font-family: $default-font
 	overflow-x: hidden
 	margin-bottom: 1600px
+	background-color: #777
 
 h1
 	font-family: "PlayfairDisplay-Bold", serif
@@ -251,6 +252,7 @@ h6
 
 .second-sec-cont2
 	margin-top: 120px
+	margin-bottom: 100px
 
 .second-sec-img
 	max-width: 100%
@@ -260,8 +262,19 @@ h6
 .ss-img-wrap
 	width: 49%
 	display: inline-block
+	position: relative
 	&:nth-child(odd)
 		margin-right: 1%
+	&::before
+		content: ''
+		position: absolute
+		display: block
+		width: 90%
+		height: 86%
+		top: 0
+		left: 0
+		margin: 3%
+		border: 5px solid #fff
 
 .ss-img-container
 	position: relative

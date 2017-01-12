@@ -1,9 +1,0 @@
-/node_modules/
-/dist/
-/app/css/
-/**/*.psd
-/**/Thumbs.db
-<<<<<<< HEAD
-=======
-/**/*.log
->>>>>>> fc9d205c974fd1651613941e6098d34b999115e8

@@ -33,10 +33,10 @@ body
 	font-size: 16px
 	min-width: 320px
 	position: relative
-	line-height: 1.75
+	line-height: 1.5
 	font-family: $default-font
 	overflow-x: hidden
-	margin-bottom: 600px
+	margin-bottom: 1600px
 
 h1
 	font-family: "PlayfairDisplay-Bold", serif
@@ -180,7 +180,112 @@ h6
 	background: rgba(86,83,76,.53)
 	margin-bottom: 214px
 
+.second-sec
+	background-color: #fefefd
+	
+.second-sec-cont1
+	text-align: center
+	padding-left: 65px
+	padding-right: 65px
+
+.sec-header
+	margin-bottom: 0
+	margin-top: 100px
+	line-height: 1.1em
+
+.sec-descr
+	font-family: Alegreya, serif
+	font-weight: bold
+	color: $accent
+	text-transform: uppercase
+	margin-top: 0
+	margin-bottom: 55px
+
+.sec-text
+	margin-bottom: 50px
+
+.sec-header-h3
+	color: $headers
+	font-size: 24px
+	margin-bottom: 40px
+
+.h3-like
+	font-family: Alegreya, serif
+	font-size: 24px
+	color: $headers
+	display: inline-block
+	width: 111px
+	padding: 21px 14px 14px 14px
+	border-top: 1px solid #d7d5ca
+	border-bottom: 1px solid #d7d5ca
 
 
+.chef-photo
+	border-radius: 50%
+	max-width: 100px
+	height: auto
+	margin: 0 24px
+
+.quote
+	font-family: Scriptina, serif
+	font-size: 24px
+	color: $accent
+	margin: 55px auto
+	max-width: 240px
+	position: relative
+	&::before, &::after
+		position: absolute
+		content: ''
+		display: inline-block
+		width: 23px
+		height: 14px
+		background-image: url("../img/sprite.png")
+	&::before
+		top: -12px
+		left: -70px
+		background-position: -12px -215px
+	&::after
+		bottom: -12px
+		right: -70px
+		background-position: -12px -247px
+
+.second-sec-cont2
+	margin-top: 120px
+
+.second-sec-img
+	max-width: 100%
+	height: auto
+	margin-bottom: 20px
+
+.ss-img-wrap
+	width: 49%
+	display: inline-block
+	&:nth-child(odd)
+		margin-right: 1%
+
+.ss-img-container
+	position: relative
+
+.ss-imgs-header
+	position: absolute
+	display: table
+	width: 252px
+	height: 252px
+	top: 50%
+	left: 50%
+	margin-left: -126px
+	margin-top: -126px
+	background: url('../img/sprite.png') -160px -45px no-repeat
+
+.ss-h3-like
+	display: table-cell
+	vertical-align: middle
+	color: $accent
+	font-size: 30px
+	border: none
+	text-transform: uppercase
+	text-align: center
+	line-height: 1.1em
+	
 
 @import "media" // Всегда в конце

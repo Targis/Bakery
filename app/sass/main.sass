@@ -412,6 +412,124 @@ h6
 		color: #979285
 		display: block
 
+.breakfast
+	background: url('../img/breakfast.jpg') top center no-repeat
+	background-size: cover
+	height: 760px
+	padding: 100px 0
+
+.breakfast-menu
+	text-align: center
+	h2
+		color: #fff
+		font-size: 60px
+		font-weight: bold
+		margin: 0
+		line-height: 1em
+	h3
+		color: #c8a593
+		font-size: 18px
+		font-weight: bold
+		line-height: 1em
+		margin: 0
+		text-transform: uppercase
+
+.br-menu-items
+	list-style-type: none
+	margin: 0
+	padding: 0
+	h4
+		color: #fff
+		font-size: 30px
+		font-weight: bold
+		margin-bottom: 0
+		margin-top: 30px
+	p
+		font-size: 16px
+		color: $minor
+		margin: 0
+	span
+		font-family: Alegreya, serif
+		font-size: 36px
+		color: #dfc691
+	li
+		position: relative
+		&::before
+			content: ''
+			position: absolute
+			width: 94px
+			height: 28px
+			background: url('../img/sprite.png') -19px -323px no-repeat
+			bottom: -32px
+			left: 50%
+			margin-left: -47px
+		&:last-child
+			&::before
+				display: none
+
+.br-cards-wrap
+	padding: 10px
+	width: 440px
+	height: 600px
+	background: url('../img/sprite.png') -532px -607px no-repeat
+	background-color: #f3f1e9
+	position: relative
+	&::before
+		content: ''
+		background: url('../img/sprite.png') 0px -480px no-repeat
+		position: absolute
+		top: 25px
+		right: -25px
+		width: 25px
+		height: 548px
+
+.br-cards
+	border: 1px dashed #9e9c93
+	width: 100%
+	height: 100%
+	position: relative
+	text-align: center
+	padding: 0 20px
+	&::before
+		background: url('../img/sprite.png') 1px -380px no-repeat
+		content: ''
+		position: absolute
+		top: 66px
+		left: 50%
+		margin-left: -185px
+		width: 370px
+		height: 60px
+	span
+		color: $headers
+		display: inline-block
+		font-family: Alegreya, serif
+		font-weight: bold
+		margin-top: 40px
+		text-align: center
+		text-transform: uppercase
+		width: 50%
+		float: left
+	h2
+		font-family: Alegreya, serif
+		font-size: 44px
+		margin-top: 220px
+		line-height: 1.3em
+	p
+		margin-bottom: 50px
+
+.button-ghost
+	color: #a47d5e
+	border: 1px solid #9e9c93
+	font-size: 18px
+	font-weight: bold
+	padding: 12px 70px
+	transition: all .2s
+	&:hover
+		text-decoration: none
+		color: #fff
+		background-color: $accent
+		transition: all .2s
+
 
 
 

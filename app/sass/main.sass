@@ -308,7 +308,8 @@ h6
 
 
 .pancakes
-	background: url('../img/pancakes.jpg') center 0 no-repeat
+	background: url('../img/pancakes.jpg') top center no-repeat
+	background-size: cover
 	height: 760px
 
 .cakes-card
@@ -328,28 +329,20 @@ h6
 		border-left-color: transparent
 		border-bottom-color: transparent
 		box-shadow: 11px -6px 13px rgba(0,0,0,.3)
-		z-index: 2
-	&::after
-		content: ''
-		position: absolute
-		bottom: 0
-		left: 0
-		width: 50px
-		height: 50px
-		background: url('../img/triangle_bg.png')
-		z-index: 1
 
 .cakes-img-wrap
 	height: 100%
 	width: 41.44%
+	position: relative
+	overflow: hidden
 
 .cakes-img
 	height: 100%
 	width: auto
-	/*background-image: url("../img/cake.jpg")*/
-	/*background-repeat: no-repeat*/
 
 .cakes-text
+	background: url('../img/sprite.png') -447px 208px no-repeat
+	height: 100%
 	width: 58.56%
 	padding: 60px 60px 0
 	h2, h3
@@ -393,6 +386,7 @@ h6
 		border-radius: 50%
 
 .av-time
+	background: url('../img/sprite.png') 98% 46% no-repeat
 	position: absolute
 	top: -40px
 	right: -95px

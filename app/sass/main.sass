@@ -98,7 +98,10 @@ h6
 	font-size: 30px
 	color: #fff
 	letter-spacing: 9px
-	line-height: 60px
+	line-height: 55px
+	a
+		color: #fff
+		text-decoration: none
 
 .top-nav
 	ul
@@ -141,11 +144,6 @@ h6
 		color: #efebe4
 		margin-right: 25px
 		line-height: 70px
-		opacity: 1
-		transition: all .3s
-		&:hover
-			font-size: 1.2em
-			transition: all .3s
 
 .fs-text
 	text-align: center
@@ -269,23 +267,22 @@ h6
 .second-sec-img
 	max-width: 100%
 	height: auto
-	margin-bottom: 20px
 
 .ss-img-wrap
-	width: 49%
 	display: inline-block
+	margin-bottom: 20px
+	max-width: 290px
 	position: relative
 	&:nth-child(odd)
-		margin-right: 1%
+		margin-right: 20px
 	&::before
 		content: ''
 		position: absolute
 		display: block
-		width: 90%
-		height: 86%
-		top: 0
-		left: 0
-		margin: 3%
+		top: 2%
+		left: 2%
+		bottom: 2%
+		right: 2%
 		border: 5px solid #fff
 
 .ss-img-container
@@ -402,7 +399,7 @@ h6
 		border-radius: 50%
 
 .av-time
-	background: url('../img/sprite.png') 98% 46% no-repeat
+	background: url('../img/sprite.png') -784px -369px  no-repeat
 	position: absolute
 	top: -40px
 	right: -95px

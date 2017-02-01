@@ -63,6 +63,8 @@ h5
 h6
 	font-size: 14px
 
+.db
+	display: block !important
 
 .img-responsive
 	display: block
@@ -125,12 +127,33 @@ h6
 		&:last-child
 			&::before
 				content: ''
-
 	a
 		font-family: Alegreya, sans-serif
 		color: #fff
 		font-size: 14px
 		
+.mobile-menu-wrapper
+	position: relative
+
+.mobile-menu
+	display: none
+	list-style-type: none
+	margin: 0
+	padding: 0
+	position: absolute
+	top: 70px
+	width: 250px
+	z-index: 100
+	a
+		background: rgba(86,83,76,.53)
+		color: #fff
+		display: inline-block
+		text-decoration: none
+		padding: 15px
+		width: 100%
+		&:hover
+			background: rgba(86,83,76,.73)
+
 
 .top-row
 	background: rgba(86,83,76,.53)
@@ -148,7 +171,7 @@ h6
 	background: rgba(86,83,76,.53)
 	width: 50px
 	height: 50px
-	margin: 10px 0 0 25px
+	margin-top: 10px
 	position: relative
 	z-index: 100
 	border: none
@@ -185,6 +208,18 @@ h6
 	top: 13.5px
 	transition: all 0.5s
 	transition-delay: 0.1s
+
+.burger.active 
+	.bgr-topper 
+		top: 9px
+		transform: rotate(-45deg)
+	.bgr-bottom
+		top: 6px
+		transform: rotate(45deg)
+	.bgr-footer 
+		opacity: 0
+		top: 0
+		transform: rotate(180deg)
 
 .fs-text
 	text-align: center
